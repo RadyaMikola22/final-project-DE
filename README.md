@@ -12,10 +12,10 @@ This repository is used to explain my project, which aims to create a dashboard 
 ```
 ## docker-build	      - Build Docker Images (amd64) including its inter-container network.
 ## docker-build-arm   - Build Docker Images (arm64) including its inter-container network.
-## postgres           - Run a Postgres container
-## spark              - Run a Spark cluster, rebuild the postgres container, then create the destination tables
+## postgres           - Run a Postgres container.
+## spark              - Run a Spark cluster, rebuild the postgres container, then create the destination tables.
 ## airflow            - Spinup airflow scheduler and webserver.
-## metabase           - Run a Metabase container for visualization
+## metabase           - Run a Metabase container for visualization.
 ## clean              - Cleanup all running containers related to the project.
 ```
 ---
