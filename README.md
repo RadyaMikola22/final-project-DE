@@ -33,6 +33,7 @@ This repository is used to explain my project, which aims to create a dashboard 
 10. After the task running succesfully, you can go to the http://localhost:3000/ on your favorite browser.
 11. Visualize the data.
 
+## Data Pipeline
 ![Data Pipeline](https://github.com/RadyaMikola22/final-project-DE/blob/7874afb84984e56eb6bc45afc1f5f7784c6f12ef/Design%20Data%20Pipeline%20(Metabase).png)
 ## Data Pipeline Summary
 - Collect raw data from kaggle.com.
@@ -42,6 +43,9 @@ This repository is used to explain my project, which aims to create a dashboard 
 - Create a DAG named `final_project_day.py` to run both Spark scripts.
 - Before running the task, prepare the PostgreSQL JAR file for connecting to the database.
 - Visualize the results of the analysis using Metabase.
+
+## Dashboard Visualization
+![Dashboard](https://github.com/RadyaMikola22/final-project-DE/blob/7b959b817e3650aa622b3eb86581af075368d608/Spotify%20Music%20Listener%20Behavior.jpg)
 
 ## File Presentation
 [Spotify: Music Listener Behavior](https://www.canva.com/design/DAFx2UoDeAM/y01IcQ7w_Ue8kIQVwrDdYQ/view?utm_content=DAFx2UoDeAM&utm_campaign=designshare&utm_medium=link&utm_source=editor)
