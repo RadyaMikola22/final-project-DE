@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  metabase:
+    image: metabase/metabase
+    container_name: ${METABASE_CONTAINER_NAME}
+    restart: unless-stopped
+    environment:
+    - MB_DB_TYPE=postgres
+    - MB_DB_DBNAME=${POSTGRES_DB}
+    - MB_DB_PORT=${POSTGRES_PORT}
+    - MB_DB_USER=${POSTGRES_USER}
+    - MB_DB_PASS=${POSTGRES_PASSWORD}
+    - MB_DB_HOST=${POSTGRES_CONTAINER_NAME}  
+    ports:
+      - ${METABASE_PORT}:3000
+
+networks:
+  default:
+    name: dataeng-network
+    external: true
