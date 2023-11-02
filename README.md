@@ -43,6 +43,6 @@ This repository is used to explain my project, which aims to create a dashboard 
 - Visualize the results of the analysis using Metabase.
 
 ## File Presentation
-[Spotify: Music Listener Behavior]()
+[Spotify: Music Listener Behavior](https://www.canva.com/design/DAFx2UoDeAM/y01IcQ7w_Ue8kIQVwrDdYQ/view?utm_content=DAFx2UoDeAM&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 `Owner : Mochamad Ananda Radya Mikola`
