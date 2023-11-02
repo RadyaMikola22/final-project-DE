@@ -10,17 +10,17 @@ This repository is used to explain my project, which aims to create a dashboard 
 
 ---
 ```
-## docker-build			- Build Docker Images (amd64) including its inter-container network.
-## docker-build-arm		- Build Docker Images (arm64) including its inter-container network.
-## postgres			    - Run a Postgres container
-## spark			    - Run a Spark cluster, rebuild the postgres container, then create the destination tables
-## airflow			    - Spinup airflow scheduler and webserver.
-## metabase             - Run a Metabase container for visualization
-## clean			    - Cleanup all running containers related to the challenge.
+## docker-build	      - Build Docker Images (amd64) including its inter-container network.
+## docker-build-arm   - Build Docker Images (arm64) including its inter-container network.
+## postgres           - Run a Postgres container
+## spark              - Run a Spark cluster, rebuild the postgres container, then create the destination tables
+## airflow            - Spinup airflow scheduler and webserver.
+## metabase           - Run a Metabase container for visualization
+## clean              - Cleanup all running containers related to the challenge.
 ```
 ---
 
-## Intstruction
+## Instruction
 1. Clone This Repo.
 2. Run `make docker-build` for x86 user, or `make docker-build-arm` for arm chip user.
 3. Run `make postgres`
@@ -29,8 +29,8 @@ This repository is used to explain my project, which aims to create a dashboard 
 6. Run `make metabase`
 7. Wait until all container are ready, especially with the airflow container.
 8. Open the airflow on your favorite browser http://localhost:8081/
-9. Run the DAG `Spotify: Music Listener Behavior`
-10. After the task running succesfully, you can go to the http://localhost:3000/ on your favorite browser
+9. Run the DAG `Spotify: Music Listener Behavior`.
+10. After the task running succesfully, you can go to the http://localhost:3000/ on your favorite browser.
 11. Visualize the data.
 
 ## Data Pipeline Summary
