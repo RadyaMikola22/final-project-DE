@@ -33,7 +33,7 @@ This repository is used to explain my project, which aims to create a dashboard 
 10. After the task running succesfully, you can go to the http://localhost:3000/ on your favorite browser.
 11. Visualize the data.
 
-![Data Pipeline](Design Data Pipeline (Metabase).png)
+![Data Pipeline](https://github.com/RadyaMikola22/final-project-DE/blob/7874afb84984e56eb6bc45afc1f5f7784c6f12ef/Design%20Data%20Pipeline%20(Metabase).png)
 ## Data Pipeline Summary
 - Collect raw data from kaggle.com.
 - Dockerize Postgres, Spark master and worker, Airflow worker and scheduler, and Metabase.
