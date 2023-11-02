@@ -33,7 +33,7 @@ This repository is used to explain my project, which aims to create a dashboard 
 10. After the task running succesfully, you can go to the http://localhost:3000/ on your favorite browser.
 11. Visualize the data.
 
-![Data Pipeline](Spotify_Music_Listener_Behavior.jpg)
+![Data Pipeline](Spotify Music Listener Behavior.jpg)
 ## Data Pipeline Summary
 - Collect raw data from kaggle.com.
 - Dockerize Postgres, Spark master and worker, Airflow worker and scheduler, and Metabase.
