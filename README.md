@@ -16,7 +16,7 @@ This repository is used to explain my project, which aims to create a dashboard 
 ## spark              - Run a Spark cluster, rebuild the postgres container, then create the destination tables
 ## airflow            - Spinup airflow scheduler and webserver.
 ## metabase           - Run a Metabase container for visualization
-## clean              - Cleanup all running containers related to the challenge.
+## clean              - Cleanup all running containers related to the project.
 ```
 ---
 
