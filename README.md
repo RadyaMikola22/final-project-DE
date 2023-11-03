@@ -4,7 +4,7 @@
 This repository is used to explain my project, which aims to create a dashboard providing more comprehensive information. As we know, music has become an integral part of human culture and life. The music that is currently popular reflects the era and culture nowadays. However, information about the preferences or behaviors of music listeners is not always easily accessible. Therefore, this project aims to provide comprehensive information about music listener behavior.
 
 ## Requirements
-- Install Make ~ `sudo apt install make` for [linux or Instal Make for Windows](https://gnuwin32.sourceforge.net/packages/make.htm)
+- Install Make ~ `sudo apt install make` for linux or [Instal Make for Windows](https://gnuwin32.sourceforge.net/packages/make.htm)
 - Install Docker Compose ~ `sudo apt install docker-compose`
 - Install Docker App [Instal Docker](https://docs.docker.com/engine/install/)
 
