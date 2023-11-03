@@ -5,8 +5,7 @@ This repository is used to explain my project, which aims to create a dashboard 
 
 ## Requirements
 - Install Make ~ `sudo apt install make` for linux or [Install Make for Windows](https://gnuwin32.sourceforge.net/packages/make.htm)
-- Install Docker Compose ~ `sudo apt install docker-compose`
-- Install Docker App [Install Docker](https://docs.docker.com/engine/install/)
+- Install Docker Compose ~ `sudo apt install docker-compose` for linux or [Install Docker Dekstop](https://docs.docker.com/engine/install/)
 
 ---
 ```
